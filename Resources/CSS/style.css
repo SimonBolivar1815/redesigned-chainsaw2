@@ -1,0 +1,187 @@
+html{
+  font-size: 16px;
+  color: black;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-width: thick;
+  border-color: green;
+  height: 100rem;
+  background-image: url("shuttle.jpg");
+
+}
+
+
+/*header */
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  background-color: orange;
+  height: 4rem;
+  width: 100%;
+  top: 0;
+  font-size: 30px;
+  font-weight: 700;
+  border: solid;
+  border-color: black;
+}
+
+header h2{
+  border: solid;
+  border-color: black;
+  padding: 0rem 0.8rem;
+}
+
+header img{
+  width: 2.5rem;
+}
+
+header .desktop{
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.backgrnd{
+  border: solid;
+  border-color: blue;
+  background-image: url("shuttle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 45rem;
+  opacity: 0.2;
+  z-index: 0;
+  position: relative;
+
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 65rem;
+  position: static;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  border: solid;
+  background-color: rgba(230, 194, 126, 0.4);
+}
+
+h4{
+  opacity: 1.0;
+}
+
+
+.mission h4{
+  font-size: 29px;
+  font-weight: 500;
+  padding: 0.2rem 0.5rem;
+  border: solid;
+  border-color: black;
+  background-color: orange;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.pictures{
+  display: flex;
+  flex-direction: row;
+  height: 25rem;
+  width: auto;
+  background-color: transparent;
+}
+
+.pictures .pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 25%;
+  margin: 0.1rem 0.5rem;
+}
+
+.pictures .pic img{
+  display: block;
+  height: 8rem;
+  width: 12rem;
+  margin: 2rem;
+  border: solid;
+  border-color: black;
+  border-width: thick;
+}
+
+.pictures p{
+  display: block;
+  font-family: sans-serif;
+  font-size: 1.0rem;
+  margin-top: 0.5rem;
+  border: solid;
+  border-color: black;
+  background-color: orange;
+  padding: 0.2rem 0.4rem;
+}
+
+.cooking{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: black;
+  height: 30rem;
+  background-color: rgba(236, 178, 69, 0.5);
+  margin-bottom: 1rem;
+}
+
+
+.cooking p{
+  margin: 0.5rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.cooking img{
+  width: 10rem;
+  margin-top: 1rem;
+  border: solid;
+  border-color: black;
+  border-width: thick;
+}
+
+.upload{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.upload button{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem;
+  background-color: orange;
+  margin: 4rem 0rem;
+  border: solid;
+  border-color: black;
+  transition:
+}
+
+
+.upload button:hover{
+  background-color: red;
+  padding: 1.6rem 1.1rem;
+}
